@@ -1,19 +1,29 @@
-Giang Data Enthusiast & Detail-Oriented Tester
+Giang | Web Developer
 
 Profile:
-Data Enthusiast with a foundation in Information Systems, interested in data quality, automation testing, and business insights.
+Web developer with a foundation in Information Systems, focused on building web-based management systems. Interested in turning business workflows into clear, usable applications with well-structured data and user roles.
 
-Skills:
-- SQL
-- Python
-- Pandas
-- Power BI
-- Manual Testing
-- API Testing
-- pytest
-- Bug Reporting
+Technical skills:
+- ASP.NET Core MVC
+- C# and Entity Framework Core
+- MySQL and PostgreSQL
+- TypeScript
+- Node.js and Next.js
+- HTML, CSS and Web UI
+
+Currently learning:
+- Data / BI fundamentals
+- Excel and Power BI
 
 Projects:
-1. Supermarket Sales Data Analysis
-2. Data Quality Testing
-3. REST API Automation Testing
+1. HR Management System — ASP.NET Core MVC, Entity Framework Core and MySQL
+2. MYFIT Gym Management MVP — Next.js, Node.js and PostgreSQL
+3. Tu Vi App — Personal TypeScript web side project
+
+GitHub:
+https://github.com/hgiang7193
+
+Contact:
+Email: gianghuongtraan1102@gmail.com
+Zalo: 0353092998
+Facebook: https://www.facebook.com/giang.tran.337570

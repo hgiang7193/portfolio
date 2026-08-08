@@ -836,6 +836,34 @@ body::after {
     gap: 10px;
 }
 
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 22px;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    margin-top: 22px;
+    color: var(--accent);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+}
+
+.project-links .project-link {
+    margin-top: 0;
+}
+
+.project-link:hover,
+.project-link:focus-visible {
+    color: var(--accent-2);
+}
+
 .skill-row span {
     display: inline-flex;
     align-items: center;
