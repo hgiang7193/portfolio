@@ -1,0 +1,19 @@
+Giang Data Enthusiast & Detail-Oriented Tester
+
+Profile:
+Data Enthusiast with a foundation in Information Systems, interested in data quality, automation testing, and business insights.
+
+Skills:
+- SQL
+- Python
+- Pandas
+- Power BI
+- Manual Testing
+- API Testing
+- pytest
+- Bug Reporting
+
+Projects:
+1. Supermarket Sales Data Analysis
+2. Data Quality Testing
+3. REST API Automation Testing
