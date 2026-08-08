@@ -612,7 +612,7 @@ body::after {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
     gap: 24px;
 }
 
@@ -836,13 +836,6 @@ body::after {
     gap: 10px;
 }
 
-.project-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 14px;
-    margin-top: 22px;
-}
-
 .project-link {
     display: inline-flex;
     align-items: center;
@@ -853,10 +846,6 @@ body::after {
     font-size: 0.82rem;
     font-weight: 800;
     letter-spacing: 0.04em;
-}
-
-.project-links .project-link {
-    margin-top: 0;
 }
 
 .project-link:hover,

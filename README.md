@@ -7,7 +7,7 @@ This is my little corner of the internet: a place to show what I am learning, ho
 ## What's inside
 
 - A responsive personal portfolio website
-- Featured work in web management systems and personal web experiments
+- Featured work in web management systems
 - A downloadable CV
 - A clean, dashboard-inspired interface built for a smooth reading experience
 
@@ -21,7 +21,6 @@ This is my little corner of the internet: a place to show what I am learning, ho
 | --- | --- |
 | Web management systems | Building role-based applications around real business workflows |
 | Data & BI learning | Exploring Excel, Power BI, KPIs, and data visualisation fundamentals |
-| Personal experiments | Trying ideas through small web side projects, including a Tử Vi app |
 
 ## Run locally
 

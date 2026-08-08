@@ -1,5 +1,6 @@
 $page = Get-Content -Raw -Encoding UTF8 "$PSScriptRoot\..\index.html"
 $cv = Get-Content -Raw -Encoding UTF8 "$PSScriptRoot\..\assets\giang-cv.txt"
+$readme = Get-Content -Raw -Encoding UTF8 "$PSScriptRoot\..\README.md"
 
 function Assert-Contains {
     param([string]$Text, [string]$Expected, [string]$Message)
@@ -20,14 +21,19 @@ function Assert-NotContains {
 Assert-Contains $page 'https://github.com/hgiang7193' 'GitHub profile link is missing.'
 Assert-Contains $page 'https://github.com/hgiang7193/HRmanagement' 'HR Management project link is missing.'
 Assert-Contains $page 'https://github.com/hgiang7193/Gymmanagement-' 'MYFIT project link is missing.'
-Assert-Contains $page 'https://github.com/hgiang7193/Tuvi' 'Tuvi side-project link is missing.'
 Assert-Contains $page 'Web Management Projects' 'Project heading does not describe the portfolio focus.'
+Assert-Contains $page '<span class="metric-number">02</span>' 'Project count must match the two featured projects.'
 Assert-Contains $page 'mailto:gianghuongtraan1102@gmail.com' 'Portfolio email link is missing.'
 Assert-Contains $page 'https://zalo.me/0353092998' 'Zalo contact link is missing.'
 Assert-Contains $page 'https://www.facebook.com/giang.tran.337570' 'Facebook contact link is missing.'
 Assert-NotContains $page 'Data Analysis & Quality Assurance Projects' 'Portfolio still claims data-analysis projects.'
 Assert-NotContains $page 'https://www.linkedin.com' 'Placeholder LinkedIn link must not ship.'
 Assert-NotContains $page 'giang@example.com' 'Placeholder email must not ship.'
+Assert-NotContains $page 'Tử Vi App' 'Tuvi side project must not appear in the portfolio.'
+Assert-NotContains $page 'tuvi-iota.vercel.app' 'Tuvi demo must not be linked from the portfolio.'
+Assert-NotContains $page 'github.com/hgiang7193/Tuvi' 'Tuvi source must not be linked from the portfolio.'
 Assert-Contains $cv 'gianghuongtraan1102@gmail.com' 'CV email is missing.'
 Assert-Contains $cv '0353092998' 'CV Zalo number is missing.'
 Assert-Contains $cv 'https://www.facebook.com/giang.tran.337570' 'CV Facebook link is missing.'
+Assert-NotContains $cv 'Tu Vi App' 'Tuvi side project must not appear in the downloadable CV.'
+Assert-NotContains $readme 'Tử Vi' 'Tuvi side project must not appear in the project README.'

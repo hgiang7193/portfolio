@@ -18,7 +18,6 @@ Currently learning:
 Projects:
 1. HR Management System — ASP.NET Core MVC, Entity Framework Core and MySQL
 2. MYFIT Gym Management MVP — Next.js, Node.js and PostgreSQL
-3. Tu Vi App — Personal TypeScript web side project
 
 GitHub:
 https://github.com/hgiang7193
