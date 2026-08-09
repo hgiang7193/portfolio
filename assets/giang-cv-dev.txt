@@ -1,0 +1,59 @@
+TRẦN HƯƠNG GIANG
+Web Developer (Fresher)
+
+Địa chỉ: Xóm 3 An Khánh, Hoài Đức, Hà Nội
+SĐT: 0976365586
+Email: gianghuongtran1102@gmail.com
+GitHub: https://github.com/hgiang7193
+LinkedIn: https://linkedin.com/in/huonggiangtran (cập nhật sau)
+
+
+MỤC TIÊU
+Tìm kiếm vị trí Fresher Web Developer để phát triển kỹ năng xây dựng ứng dụng quản lý, 
+áp dụng nền tảng lập trình và kinh nghiệm thực tập vào môi trường làm việc thực tế.
+
+
+HỌC VẤN
+Đại học Bách Khoa Hà Nội — Khoa Toán - Tin          2022 – nay
+Chuyên ngành: Hệ thống thông tin quản lý
+CPA: 3.14 / 4.0
+TOEIC: 545 (2024–2026)
+
+
+KỸ NĂNG KỸ THUẬT
+- Ngôn ngữ: C#, JavaScript/TypeScript, Python, Java, SQL, PL/SQL
+- Framework/Platform: ASP.NET Core MVC, Entity Framework Core, Next.js, Node.js, Oracle APEX
+- Database: MySQL, PostgreSQL, SQL Server, Oracle DB
+- Tools: Git/GitHub, Docker, Visual Studio, VS Code
+- Khác: HTML/CSS, REST API, Authentication & Authorization
+
+
+KINH NGHIỆM LÀM VIỆC
+
+Thực tập sinh Web — Công ty TNHH InsightData          9/2025 – 11/2025
+- Xây dựng ứng dụng quản lý nhân sự bằng Oracle APEX.
+- Thiết kế giao diện người dùng với Interactive Grid, Forms, Cards.
+- Viết SQL và PL/SQL để xử lý dữ liệu phía backend.
+- Tích hợp xác thực người dùng qua Authentication Scheme và phân quyền Authorization.
+
+
+DỰ ÁN
+
+Hệ thống Quản lý Nhân sự                              2024
+Tech stack: ASP.NET Core MVC · Entity Framework Core · MySQL
+- Xây dựng ứng dụng web quản lý nhân viên, phòng ban, chức vụ, dự án và chấm công.
+- Triển khai đăng nhập, phân quyền theo vai trò (RBAC) và các luồng nghiệp vụ nội bộ.
+- Kiến trúc MVC với Razor Views và Entity Framework Core.
+GitHub: https://github.com/hgiang7193/HRmanagement
+
+MYFIT — Gym Management MVP                             2024
+Tech stack: Next.js · Node.js · PostgreSQL · Docker
+- MVP quản lý phòng gym cho 4 vai trò: admin, manager, coach, member.
+- Tính năng: đăng nhập, phân quyền, check-in theo ca, gói tập, thanh toán, đa chi nhánh.
+- Kết nối frontend Next.js với REST API backend Node.js và PostgreSQL.
+GitHub: https://github.com/hgiang7193/Gymmanagement-
+
+
+HOẠT ĐỘNG KHÁC
+- Tham gia đồ án môn học: Thiết kế web quản lý bán hàng và quản lý nhân sự.
+- Làm việc nhóm với GitHub, Google Drive, Excel trong các dự án học thuật.

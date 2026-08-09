@@ -1,0 +1,68 @@
+TRẦN HƯƠNG GIANG
+QA Tester / Software Tester (Fresher)
+
+Địa chỉ: Xóm 3 An Khánh, Hoài Đức, Hà Nội
+SĐT: 0976365586
+Email: gianghuongtran1102@gmail.com
+GitHub: https://github.com/hgiang7193
+LinkedIn: https://linkedin.com/in/huonggiangtran (cập nhật sau)
+
+
+MỤC TIÊU
+Tìm kiếm vị trí Fresher QA/Tester để áp dụng hiểu biết về quy trình phát triển phần mềm, 
+kỹ năng phân tích nghiệp vụ và nền tảng lập trình vào công tác kiểm thử hệ thống.
+
+
+HỌC VẤN
+Đại học Bách Khoa Hà Nội — Khoa Toán - Tin          2022 – nay
+Chuyên ngành: Hệ thống thông tin quản lý
+CPA: 3.14 / 4.0
+TOEIC: 545 (2024–2026)
+
+
+KỸ NĂNG
+
+Testing & QA:
+- Manual Testing: kiểm thử chức năng, giao diện, luồng người dùng
+- Viết test case, test plan, bug report theo format chuẩn
+- Hiểu vòng đời phát triển phần mềm (SDLC) và quy trình QA
+- Kiểm thử API cơ bản (Postman)
+
+Kỹ thuật:
+- Ngôn ngữ: SQL, PL/SQL, Python, C#, JavaScript
+- Database: MySQL, PostgreSQL, Oracle DB (có thể viết query kiểm tra dữ liệu)
+- Tools: Git/GitHub, Excel, Jira (cơ bản)
+- Đọc hiểu code để hỗ trợ kiểm thử
+
+
+KINH NGHIỆM LÀM VIỆC
+
+Thực tập sinh Web — Công ty TNHH InsightData          9/2025 – 11/2025
+- Xây dựng và kiểm thử ứng dụng quản lý nhân sự bằng Oracle APEX.
+- Kiểm tra luồng nghiệp vụ: thêm/sửa/xóa, tìm kiếm, báo cáo, phân quyền.
+- Viết SQL để xác minh dữ liệu backend khớp với giao diện frontend.
+- Phát hiện và ghi nhận lỗi trong quá trình phát triển tính năng.
+
+
+DỰ ÁN (góc nhìn QA)
+
+Hệ thống Quản lý Nhân sự                              2024
+Tech stack: ASP.NET Core MVC · Entity Framework Core · MySQL
+- Tự kiểm thử toàn bộ luồng nghiệp vụ: nhân viên, phòng ban, chức vụ, chấm công.
+- Kiểm tra phân quyền theo vai trò (RBAC) và các edge case đăng nhập.
+- Xác minh dữ liệu qua SQL query trực tiếp trên MySQL.
+GitHub: https://github.com/hgiang7193/HRmanagement
+
+MYFIT — Gym Management MVP                             2024
+Tech stack: Next.js · Node.js · PostgreSQL
+- Kiểm thử luồng 4 vai trò: admin, manager, coach, member.
+- Kiểm tra tính năng check-in, gói tập, hóa đơn và đa chi nhánh.
+- Test API với Postman để xác minh response từ backend Node.js.
+GitHub: https://github.com/hgiang7193/Gymmanagement-
+
+
+HOẠT ĐỘNG KHÁC
+- Tham gia đồ án môn học với các hệ thống web quản lý thực tế.
+- Làm việc nhóm với GitHub, Google Drive, Excel trong môi trường học thuật.
+
+LƯU Ý: Nếu có chứng chỉ ISTQB hoặc khóa testing, bổ sung vào phần Chứng chỉ.
