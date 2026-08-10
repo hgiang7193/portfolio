@@ -494,8 +494,8 @@ body::after {
 
 .section h2 {
     margin-top: 14px;
-    font-size: clamp(2rem, 3.2vw, 2.62rem);
-    line-height: 1.14;
+    font-size: clamp(1.52rem, 2.3vw, 2rem);
+    line-height: 1.18;
     font-family: "Space Grotesk", "Inter", sans-serif;
 }
 
@@ -507,7 +507,7 @@ body::after {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.16em;
-    font-size: 0.74rem;
+    font-size: 0.82rem;
 }
 
 .section-kicker::before {
@@ -527,7 +527,8 @@ body::after {
 .about p {
     color: var(--text-soft);
     margin-top: 20px;
-    line-height: 1.9;
+    font-size: 0.9rem;
+    line-height: 1.78;
 }
 
 .profile-card {
