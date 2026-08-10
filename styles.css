@@ -24,6 +24,18 @@
     --danger: #f87171;
     --shadow: rgba(10,5,30,0.45);
     --surface: rgba(255,255,255,0.06);
+
+    --section-title-size: clamp(1.52rem, 2.3vw, 2rem);
+    --section-title-line: 1.18;
+    --section-kicker-size: 0.82rem;
+    --section-h3-size: 1.18rem;
+    --section-h3-line: 1.24;
+    --section-h4-size: 1rem;
+    --section-h4-line: 1.34;
+    --section-body-size: 0.9rem;
+    --section-body-line: 1.78;
+    --section-body-color: var(--text-soft);
+    --section-gap: 36px;
 }
 
 html {
@@ -489,14 +501,34 @@ body::after {
     align-items: end;
     justify-content: space-between;
     gap: 24px;
-    margin-bottom: 36px;
+    margin-bottom: var(--section-gap);
 }
 
 .section h2 {
     margin-top: 14px;
-    font-size: clamp(1.52rem, 2.3vw, 2rem);
-    line-height: 1.18;
+    font-size: var(--section-title-size);
+    line-height: var(--section-title-line);
     font-family: "Space Grotesk", "Inter", sans-serif;
+}
+
+.section h3 {
+    font-size: var(--section-h3-size);
+    line-height: var(--section-h3-line);
+}
+
+.section h4 {
+    font-size: var(--section-h4-size);
+    line-height: var(--section-h4-line);
+}
+
+.section p,
+.section .timeline p,
+.project-card p,
+.about p,
+.footer-text {
+    font-size: var(--section-body-size);
+    line-height: var(--section-body-line);
+    color: var(--section-body-color);
 }
 
 .section-kicker {
@@ -507,7 +539,7 @@ body::after {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.16em;
-    font-size: 0.82rem;
+    font-size: var(--section-kicker-size);
 }
 
 .section-kicker::before {
@@ -527,8 +559,8 @@ body::after {
 .about p {
     color: var(--text-soft);
     margin-top: 20px;
-    font-size: 0.9rem;
-    line-height: 1.78;
+    font-size: var(--section-body-size);
+    line-height: var(--section-body-line);
 }
 
 .profile-card {
@@ -645,15 +677,15 @@ body::after {
 
 .project-card h3 {
     margin-top: 25px;
-    font-size: 1.6rem;
-    line-height: 1.2;
+    font-size: var(--section-h3-size);
+    line-height: var(--section-h3-line);
 }
 
 .project-card p {
     margin-top: 20px;
     color: var(--text-soft);
-    font-size: 0.93rem;
-    line-height: 1.86;
+    font-size: var(--section-body-size);
+    line-height: var(--section-body-line);
 }
 
 .visual-card {
@@ -896,13 +928,15 @@ body::after {
 }
 
 .timeline h3 {
-    font-size: 1rem;
+    font-size: var(--section-h3-size);
+    line-height: var(--section-h3-line);
 }
 
 .timeline p {
     margin-top: 8px;
     color: var(--text-soft);
-    font-size: 0.88rem;
+    font-size: var(--section-body-size);
+    line-height: var(--section-body-line);
 }
 
 .footer {
